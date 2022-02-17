@@ -15,6 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 app.use('/api/v1/todos', require('./routes/todosRoutes'));
+app.use('/api/v1/users', require('./routes/userRoutes'));
 
 // overwrite the default express error handling
 app.use(errorHandler);
