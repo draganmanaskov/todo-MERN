@@ -1,0 +1,39 @@
+.header {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.header .navbar {
+  height: 60px;
+  background-color: #242526;
+  padding: 0 1rem;
+  border-bottom: 1px solid #474a4d;
+}
+
+.header .navbar-ul {
+  max-width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header a {
+  color: #dadce1;
+  text-decoration: none;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

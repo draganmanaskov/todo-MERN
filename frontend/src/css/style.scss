@@ -1,0 +1,14 @@
+@import './components_css/header';
+
+@import './variables.scss';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+
+   a {
+      color: red;
+      text-decoration: none;
+   }
+
